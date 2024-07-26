@@ -1,0 +1,32 @@
+/* Container for the Todo List */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Heading for the Todo List */
+  .container h4 {
+    font-size: 1.75rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Todo Item List */
+  .container > div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styling for each Todo Item Container */
+  .container app-todo-items {
+    margin-bottom: 15px;
+  }
+  
+  /* Add Todo Component Margin */
+  app-add-todo {
+    margin-bottom: 20px;
+  }
+  
